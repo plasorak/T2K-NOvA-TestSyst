@@ -4,7 +4,7 @@ These small scripts can be used to check what the impact of systematics on ND280
 
 ## Preamble
 
-To use, you need to setup the proper container and create NEUT and GENIE flat trees as shown [here:https://gist.github.com/plasorak/6674b6d94cff8a1cc647017bc359d2fb] (either for the ND280 or for NOVAND).
+To use, you need to setup the proper container and create NEUT and GENIE flat trees as shown [here](https://gist.github.com/plasorak/6674b6d94cff8a1cc647017bc359d2fb) (either for the ND280 or for NOVAND).
 
 ## Reweighting
 
@@ -16,7 +16,7 @@ where `Detector` is either `ND280` of `NOVAND`, and the `NEUT_file.root` and `GE
 
 ## Plotting
 
-To plot, you need to have `python3` (fstrings...), `uproot` (the old one), `matplotlib`, and `numpy`.
+To plot, you need to have `python3` (fstrings...), `uproot` ([the old one](https://github.com/scikit-hep/uproot)), `matplotlib`, and `numpy`.
 `uproot` depends on the all rest, so you can just do:
 ```bash
 pip3 install uproot
